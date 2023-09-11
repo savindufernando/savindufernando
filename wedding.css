@@ -1,0 +1,102 @@
+*{
+    font-family: cursive;
+}
+#h1{
+    text-align: center;
+    font-family: Papyrus;
+    text-shadow: 2px 5px rgb(16, 16, 16);
+    text-decoration: 1px underline;
+    transition: 0.5s;
+}
+#h1:hover{
+    color: #02a2ff;
+}
+.weddingsimg1{
+    width: 100%;
+    height: auto;
+}
+.event_part1{
+    display: grid;
+    grid-template-columns: 50% 45%;
+    margin: 2%;
+    border-radius: 10px;
+    background-color: #000000;
+    opacity: 90%;
+    transition: 1s;
+
+}
+.event_part1:hover{
+    background: #ffffff;
+    color: #000000;
+    margin: 1%;
+}
+#weddings_h2{
+    margin-top: 15%;
+}
+.event_part1 p, h2{
+    text-align: start;
+    width: 80%;
+    margin-left: 18%;
+}
+#img2{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 2%;
+}
+#img3{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10%
+}
+.event_part2{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin: 2%;
+    margin-left: 2%;
+    background-color: #000000;
+    border-radius: 10px;
+    opacity: 50%;
+    transition: 1s;
+}
+.event_part2:hover{
+    background: #ffffff;
+    color: #000000;
+    margin: 3%;
+    opacity: 90%;
+}
+.event_part2 p{
+    text-align: end;
+    width: 80%;
+    padding-left: 20%;
+    background-color: #0000;
+}
+#wedding_h2{
+    text-align: end;
+    margin-top: 30%;
+}
+.footer1{
+    background-color: #a7a7a7;
+}
+.footerul{
+    color: #000000;
+    margin-left: 20%;
+    font-size: medium;
+    display: flex;
+}
+.s_m1{
+    width: 9%;
+    height: auto;
+    position: relative;
+    left: 30%;
+    margin-top: 15%;
+}
+header {
+    background-color: #524141;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
